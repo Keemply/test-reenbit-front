@@ -1,0 +1,74 @@
+.cont {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(107, 105, 105, 0.6);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.window {
+    margin: 0 auto;
+    background-color: rgb(189, 189, 189);
+    width: 400px;
+    border-radius: 16px;
+    padding: 15px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.label {
+    text-align: start;
+}
+
+.button {
+    font-size: medium;
+    margin-top: 10px;
+    padding: 4px 8px;
+    background-color: rgb(255, 134, 134);
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 8px;
+    max-width: fit-content;
+    cursor: pointer;
+}
+
+.closeBut {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20px;
+    height: 20px;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+
+}
+
+.closeBut:hover {
+    background-color: azure;
+}
+
+.button:hover {
+    background-color: rgb(255, 99, 99);
+}
+
+.input {
+    border-radius: 8px;
+    padding: 4px;
+}
+
+.svg {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
