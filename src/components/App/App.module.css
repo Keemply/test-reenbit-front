@@ -1,0 +1,9 @@
+.cont {
+    display: flex;
+
+}
+
+.searchChats {
+    display: flex;
+    flex-direction: column;
+}

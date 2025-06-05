@@ -1,0 +1,108 @@
+.cont {
+    display: flex;
+    flex-direction: column;
+    border-left: 1px solid gray;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+    height: 80vh;
+
+}
+
+.profileCont {
+    padding: 15px;
+    border-bottom: 1px solid grey;
+    background-color: gainsboro;
+}
+
+.messages {
+    background-color: rgb(240, 240, 240);
+    overflow: scroll;
+    flex-grow: 1;
+    width: 720px;
+    display: flex;
+    flex-direction: column;
+    padding: 12px;
+    gap: 10px;
+}
+
+.userMessage {
+    align-self: flex-end;
+}
+
+.notUserMessage {
+    align-self: flex-start;
+
+}
+
+.userMessage,
+.notUserMessage {
+    max-width: fit-content;
+
+}
+
+
+
+.userText {
+    background-color: rgb(151, 146, 190);
+}
+
+
+
+.notUserText {
+    background-color: rgb(69, 64, 110);
+}
+
+.userText,
+.notUserText {
+    border: 1px solid gray;
+    border-radius: 12px;
+    padding: 4px 8px;
+}
+
+.timeStamp {
+    color: rgba(100, 100, 100, 0.6);
+    font-size: small;
+}
+
+.createMess {
+    background-color: gainsboro;
+    padding: 12px;
+    display: flex;
+}
+
+.input {
+    border-radius: 12px;
+    padding: 4px 32px 4px 4px;
+    flex-grow: 1;
+}
+
+.form {
+    display: flex;
+    width: 100%;
+    position: relative;
+}
+
+.formBut {
+    position: absolute;
+    width: 28px;
+    height: 28px;
+    right: 4px;
+    top: 50%;
+    transform: translateY(-50%);
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    padding: 0;
+}
+
+.send {
+    fill: none;
+    stroke: rgb(29, 29, 29);
+    width: 100%;
+    height: 100%;
+}
+
+.closeSvg {
+    width: 100%;
+    height: 100%;
+}

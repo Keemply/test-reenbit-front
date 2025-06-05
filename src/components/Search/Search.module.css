@@ -1,6 +1,8 @@
 .wholeCont {
     background-color: gainsboro;
     padding: 10px;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
 }
 
 .exeptInpCont {
@@ -26,6 +28,7 @@
     margin-top: 8px;
     border-radius: 10px;
     border: none;
+    padding: 4px 8px;
 }
 
 .buttonCont {

@@ -7,7 +7,7 @@ export const ModalReg = ({ setRegister }) => {
   async function handleSubmit(e) {
     e.preventDefault();
     try {
-      const regist = await register({
+      await register({
         name: e.target[0].value,
         email: e.target[1].value,
         password: e.target[2].value,
@@ -22,16 +22,21 @@ export const ModalReg = ({ setRegister }) => {
       <div className={css.window}>
         <button type="button" className={css.closeBut} onClick={handleClick}>
           <svg className={css.svg}>
-            <use className={css.svg} href="/public/svg/close.svg#close"></use>
+            <use className={css.svg} href="/svg/close.svg#close"></use>
           </svg>
         </button>
         <form className={css.form} onSubmit={handleSubmit}>
           <label className={css.label}>Name</label>
-          <input className={css.input} name="Name"></input>
+          <input className={css.input} name="Name" required></input>
           <label className={css.label}>Email</label>
-          <input className={css.input} name="Email" type="email"></input>
+          <input
+            className={css.input}
+            name="Email"
+            type="email"
+            required
+          ></input>
           <label className={css.label}>Password</label>
-          <input className={css.input} name="Password"></input>
+          <input className={css.input} name="Password" required></input>
           <button type="submit" className={css.button}>
             Register
           </button>
