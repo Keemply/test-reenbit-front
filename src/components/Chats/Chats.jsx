@@ -87,7 +87,7 @@ export const Chats = ({ loggedIn, chats, setActiveChat, setChats, filter }) => {
                     >
                       <svg className={css.deleteButSvg}>
                         <use
-                          href="/public/svg/pencil.svg#update"
+                          href="/svg/pencil.svg#update"
                           className={css.deleteButUse}
                         ></use>
                       </svg>
