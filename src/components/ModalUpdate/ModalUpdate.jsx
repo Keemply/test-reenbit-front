@@ -34,7 +34,7 @@ export const ModalUpdate = ({ updateChat, setUpdateChat, setChats }) => {
           <label className={css.label}>Last name</label>
           <input className={css.input} name="lastName"></input>
           <button type="submit" className={css.button}>
-            Create new chat
+            Update chat
           </button>
         </form>
       </div>
